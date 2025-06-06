@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '263780166288';
+const defaultOwner = '8495766766';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '263780166288' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '8495766766' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,12 +19,12 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ᴊɪɴᴡᴏᴏ ᴠ4';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.botname = process.env.BOTNAME || 'angel';
+global.pairingNumber = process.env.BOT_NUMBER || 'angel' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || '0qcTTSJB#St-hIY3ep7nCMvnQWGBlmgq3X55HB7RZag625N63D6A' ;  // 
 
-global.mods = []
-global.prems = []
+global.mods = [treu]
+global.prems = [false]
 global.allowed = ['263714757857', '263780934873']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -46,7 +46,7 @@ global.canal = 'https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A'
 
 
 global.APIs = {
-  // API Prefix
+  // API Prefix.
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz',
   dzx: 'https://api.dhamzxploit.my.id',
